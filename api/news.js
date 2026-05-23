@@ -1,7 +1,7 @@
 export default async function handler(req, res) {
   try {
     const response = await fetch(
-      `https://newsapi.org/v2/top-headlines?country=us&apiKey=${process.env.NEWS_API_KEY}`
+      `/api/news?country=us&apiKey=${process.env.NEWS_API_KEY}`
     );
 
     const data = await response.json();
