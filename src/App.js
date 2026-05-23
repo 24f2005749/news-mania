@@ -13,13 +13,13 @@ export class App extends Component {
         <Router>
         <Navbar title='NewsMania' />
         <Routes>
-          <Route path='/' element={<NewsComp apikey={this.apikey} key="general" pageSize={12} country='in' category='general' />} />
-          <Route path='/business' element={<NewsComp apikey={this.apikey} key="business" pageSize={12} country='in' category='business' />} />
-          <Route path='/entertainment' element={<NewsComp apikey={this.apikey} key="entertainment" pageSize={12} country='in' category='entertainment' />} />
-          <Route path='/health' element={<NewsComp apikey={this.apikey} key="health" pageSize={12} country='in' category='health' />} />
-          <Route path='/technology' element={<NewsComp apikey={this.apikey} key="technology" pageSize={12} country='in' category='technology' />} />
-          <Route path='/science' element={<NewsComp apikey={this.apikey} key="science" pageSize={12} country='in' category='science' />} />
-          <Route path='/sports' element={<NewsComp apikey={this.apikey} key="sports" pageSize={12} country='in' category='sports' />} />
+          <Route path='/' element={<NewsComp apikey={this.apikey} key="general" pageSize={12} country='us' category='general' />} />
+          <Route path='/business' element={<NewsComp apikey={this.apikey} key="business" pageSize={12} country='us' category='business' />} />
+          <Route path='/entertainment' element={<NewsComp apikey={this.apikey} key="entertainment" pageSize={12} country='us' category='entertainment' />} />
+          <Route path='/health' element={<NewsComp apikey={this.apikey} key="health" pageSize={12} country='us' category='health' />} />
+          <Route path='/technology' element={<NewsComp apikey={this.apikey} key="technology" pageSize={12} country='us' category='technology' />} />
+          <Route path='/science' element={<NewsComp apikey={this.apikey} key="science" pageSize={12} country='us' category='science' />} />
+          <Route path='/sports' element={<NewsComp apikey={this.apikey} key="sports" pageSize={12} country='us' category='sports' />} />
         </Routes>
       </Router>
       </div>
