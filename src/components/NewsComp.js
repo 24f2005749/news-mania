@@ -32,7 +32,8 @@ export class NewsComp extends Component {
 
     async componentDidMount() {
         this.setState({loading: true})
-        let url = `/api/news?country=${this.props.country}&category=${this.props.category}&apiKey=${this.props.apikey}&page=${this.state.page}&pageSize=${this.props.pageSize}`;
+        let url =
+`/api/news?country=${this.props.country}&category=${this.props.category}&page=${this.state.page}&pageSize=${this.props.pageSize}`;
         let data = await fetch(url);
         let parsedData = await data.json();
         this.setState({ articles: parsedData.articles || [], totalResults: parsedData.totalResults, loading:false });
@@ -41,7 +42,8 @@ export class NewsComp extends Component {
 
     pagePrevious = async () => {
         this.setState({loading: true})
-        let url = `/api/news?country=${this.props.country}&category=${this.props.category}&apiKey=${this.props.apikey}&page=${this.state.page - 1}&pageSize=${this.props.pageSize}`;
+        let url =
+`/api/news?country=${this.props.country}&category=${this.props.category}&page=${this.state.page}&pageSize=${this.props.pageSize}`;
         let data = await fetch(url);
         let parsedData = await data.json();
         this.setState({ page: this.state.page - 1, articles: parsedData.articles || [] , loading:false});
@@ -53,7 +55,8 @@ export class NewsComp extends Component {
         if (!((this.state.page + 1) > Math.ceil(this.state.totalResults / this.pageSize))) {
 
             this.setState({loading: true})
-            let url = `/api/news?country=${this.props.country}&category=${this.props.category}&apiKey=${this.props.apikey}&page=${this.state.page + 1}&pageSize=${this.props.pageSize}`;
+            let url =
+`/api/news?country=${this.props.country}&category=${this.props.category}&page=${this.state.page}&pageSize=${this.props.pageSize}`;
             let data = await fetch(url);
             let parsedData = await data.json();
             this.setState({ page: this.state.page + 1, articles: parsedData.articles || [] , loading:false});
