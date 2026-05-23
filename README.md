@@ -1,3 +1,4 @@
+
 # News Mania - A modern news aggregation platform
 
 News Mania is a web application that delivers real-time news across multiple categories and regions through external news APIs. Users can browse the latest headlines, explore different categories, and stay updated through a clean and responsive interface.
@@ -9,8 +10,8 @@ Built using React with API integration, dynamic rendering, state management, and
 Live Demo of the project: [Live Demo Link](your-live-link)
 
 ## Screenshots
-
-
+<img width="1408" height="757" alt="Screenshot 2026-05-23 at 10 35 29 PM" src="https://github.com/user-attachments/assets/3604e4c7-ac15-4432-866f-684765c643bf" />
+<img width="1415" height="810" alt="Screenshot 2026-05-23 at 10 34 39 PM" src="https://github.com/user-attachments/assets/adc8aa08-7af5-44f9-8f89-3d3ac36ecf72" />
 
 ## Features
 
