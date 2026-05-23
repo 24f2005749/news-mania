@@ -7,7 +7,7 @@ Built using React with API integration, dynamic rendering, state management, and
 
 ## Demo Links
 
-Live Demo of the project: [Live Demo Link](your-live-link)
+Live Demo of the project: [Live Demo Link](https://news-mania-kappa.vercel.app)
 
 ## Screenshots
 <img width="1408" height="757" alt="Screenshot 2026-05-23 at 10 35 29 PM" src="https://github.com/user-attachments/assets/3604e4c7-ac15-4432-866f-684765c643bf" />
