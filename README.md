@@ -66,5 +66,5 @@ npm run build
 
 ## Notes
 
-- News content is fetched dynamically from external APIs.
+- News content is fetched dynamically from external API.
 - API availability may depend on regional restrictions and quota limits.
